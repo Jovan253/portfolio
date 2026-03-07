@@ -11,10 +11,10 @@ export default function Certifications() {
         {certs.map((cert) => (
           <a 
             key={cert.id}
-            className="cert-card"
-            target="_blank"
-            rel="noopener noreferer"
             href={cert.link}
+            target="_blank"
+            rel="noreferrer"
+            className="cert-card"            
           >
             <img src={cert.image} alt={cert.title} />
             <h3>{cert.title}</h3>

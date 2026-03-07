@@ -8,6 +8,7 @@ export default function ProjectCard({ project }) {
             href={project.link}
             target="_blank"
             className="project-card"
+            rel="noreferrer"
             style={{ backgroundColor: hovered ? project.hoverColor : "#151515" }}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
