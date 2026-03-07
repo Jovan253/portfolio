@@ -5,12 +5,7 @@ import WorkIcon from "../components/WorkIcon";
 
 export default function Home() {
   return (
-    <div className="container">
-
-      <WorkIcon />
-
-      <Sidebar />
-
+    <div className="container">      
       <main className="main">
 
         <section className="hero">
