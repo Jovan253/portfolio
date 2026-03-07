@@ -9,20 +9,43 @@ body {
   display: flex;
 }
 
+/* Sidebar */
 .sidebar {
   width: 120px;
   height: 100vh;
   border-right: 1px solid #222;
   padding: 30px;
   position: fixed;
-}
-
-.sidebar nav {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  justify-content: flex-start;
+  background: #0b0b0b;
 }
 
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-nav a, .sidebar-nav .active {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.sidebar-nav a:hover {
+  color: #7c5cff;
+}
+
+/* Projects */
 .main {
   margin-left: 150px;
   padding: 60px;
@@ -60,6 +83,7 @@ body {
   color: #fff;
 }
 
+/* Work Icon */
 .work-icon {
   position: fixed;
   top: 20px;
