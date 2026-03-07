@@ -59,3 +59,25 @@ body {
   font-size: 1.5rem;
   color: #fff;
 }
+
+.work-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  background: #222;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  opacity: 0.95;
+}

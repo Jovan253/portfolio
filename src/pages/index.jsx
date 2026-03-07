@@ -1,10 +1,13 @@
 import Sidebar from "../components/Sidebar";
 import ProjectCard from "../components/ProjectCard";
 import projects from "../data/projects";
+import WorkIcon from "../components/WorkIcon";
 
 export default function Home() {
   return (
     <div className="container">
+
+      <WorkIcon />
 
       <Sidebar />
 

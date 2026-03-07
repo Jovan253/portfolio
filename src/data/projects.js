@@ -1,4 +1,4 @@
-import { faPlaneUp, faVideo, faTableCells, faClapperboard } from "@fortawesome/free-solid-svg-icons";
+import { faPlaneUp, faTableCells, faClapperboard } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const projects = [
