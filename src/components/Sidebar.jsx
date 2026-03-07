@@ -13,8 +13,8 @@ export default function Sidebar() {
 
             <nav className="sidebar-nav">
                 <Link to="/"><FontAwesomeIcon icon={faPenRuler}/> Projects</Link>
-                <Link to="/"><FontAwesomeIcon icon={faCircleInfo}/> About</Link>
-                <Link to="/"><FontAwesomeIcon icon={faMedal}/> Certifications</Link>
+                <Link to="/about"><FontAwesomeIcon icon={faCircleInfo}/> About</Link>
+                <Link to="/certs"><FontAwesomeIcon icon={faMedal}/> Certifications</Link>
                 
                 <a href="https://github.com/Jovan253" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub}/> Github

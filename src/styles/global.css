@@ -53,7 +53,7 @@ body {
 }
 
 .hero {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .projects {
@@ -104,4 +104,50 @@ body {
   color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
   opacity: 0.95;
+}
+
+
+/* Certifications0 */
+
+.certifications-page {
+  margin-left: 150px;
+  padding: 60px;
+  max-width: 1100px;
+}
+
+.certifications-header {
+  margin-bottom: 40px;
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.cert-card {
+  background: #151515;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.cert-card:hover {
+  transform: translateY(-3px);
+  border-color: #7c5cff;
+  cursor: pointer;
+}
+
+.cert-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.certifications-grid a {
+  color: #eaeaea;
+  text-decoration: none;
 }
