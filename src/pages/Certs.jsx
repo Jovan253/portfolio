@@ -13,7 +13,7 @@ export default function Certifications() {
             key={cert.id}
             className="cert-card"
             target="_blank"
-            rel="noreferer"
+            rel="noopener noreferer"
             href={cert.link}
           >
             <img src={cert.image} alt={cert.title} />

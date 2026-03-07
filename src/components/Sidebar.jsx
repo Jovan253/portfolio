@@ -16,10 +16,10 @@ export default function Sidebar() {
                 <Link to="/about"><FontAwesomeIcon icon={faCircleInfo}/> About</Link>
                 <Link to="/certs"><FontAwesomeIcon icon={faMedal}/> Certifications</Link>
                 
-                <a href="https://github.com/Jovan253" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Jovan253" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub}/> Github
                 </a>
-                <a href="https://www.linkedin.com/in/jovan-hadzic-6644321ba/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/jovan-hadzic-6644321ba/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin}/> Linkedin
                 </a>
             </nav>
