@@ -41,7 +41,7 @@ body {
 
 .project-card {
   padding: 30px;
-  border: 1px solid #222;
+  border: 2px solid #222;
   border-radius: 10px;
   text-decoration: none;
   color: inherit;
@@ -49,6 +49,13 @@ body {
 }
 
 .project-card:hover {
-  border-color: #666;
   transform: translateY(-3px);
+}
+
+.hover-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1.5rem;
+  color: #fff;
 }

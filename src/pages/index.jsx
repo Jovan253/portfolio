@@ -1,13 +1,10 @@
 import Sidebar from "../components/Sidebar";
 import ProjectCard from "../components/ProjectCard";
-// import CursorGlow from "../components/Cursor";
 import projects from "../data/projects";
 
 export default function Home() {
   return (
     <div className="container">
-
-      {/* <CursorGlow /> */}
 
       <Sidebar />
 
@@ -16,7 +13,7 @@ export default function Home() {
         <section className="hero">
           <h1>Jovan Hadzic</h1>
           <p>
-            Problem Solver.
+            Problem Solver & Tinkerer.
           </p>
         </section>
 
