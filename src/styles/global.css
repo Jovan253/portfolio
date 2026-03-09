@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background: #0b0b0b;
   color: #eaeaea;
 }
@@ -10,6 +10,17 @@ body {
 }
 
 /* Sidebar */
+.mobile-header {
+  display: none;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
 .sidebar {
   width: 120px;
   height: 100vh;
@@ -58,7 +69,7 @@ body {
 
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
@@ -150,4 +161,65 @@ body {
 .certifications-grid a {
   color: #eaeaea;
   text-decoration: none;
+}
+
+/* ABOUT */
+.about-page {
+  margin-left: 150px;
+  padding: 60px;
+  max-width: 1100px;
+}
+
+.about-header {
+  margin-bottom: 40px;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .main {
+    margin-left: 0;
+    padding: 30px;
+  }
+
+  .mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0b0b0b;
+    border-bottom: 1px solid #222;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: -220px;
+    top: 0;
+    width: 100px;
+    height: 100vh;
+    background: #0b0b0b;
+    transition: left 0.3s;
+    padding-top: 80px;
+  }
+
+  .sidebar.open {
+    left: 0;
+    width: 400px;
+  }
+
+  .certifications-page {
+    margin-left: 10px;
+    padding: 60px;
+    max-width: 1100px;
+  }
+
+  .about-page {
+    margin-left: 10px;
+    padding: 60px;
+    max-width: 1100px;
+  }
 }
