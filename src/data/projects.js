@@ -1,4 +1,4 @@
-import { faPlaneUp, faTableCells, faClapperboard } from "@fortawesome/free-solid-svg-icons";
+import { faPlaneUp, faTableCells, faClapperboard, faBoltLightning } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const projects = [
@@ -28,6 +28,14 @@ const projects = [
     },
     {
         id: 4,
+        title: "Mythos",
+        description: "Greek Mythology Explorer.",
+        link: "https://mythos-j5ne.vercel.app/",
+        hoverColor: "#dfad25",
+        hoverIcon: faBoltLightning
+    },
+    {
+        id: 5,
         title: "Azure Infrastructure Example",
         description: "Example of deploying infrastructure with GitHub Pipelines & Terraform.",
         link: "https://github.com/Jovan253/azure-infrastructure-example",
@@ -35,7 +43,7 @@ const projects = [
         hoverIcon: faGithub
     },
     {
-        id: 5,
+        id: 6,
         title: "AI Foundations",
         description: "Implementations of Supervised & Unsupervised Learning.",
         link: "https://github.com/Jovan253/AI-Foundations",
