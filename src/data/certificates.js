@@ -7,6 +7,13 @@ const certs = [
         link: "https://learn.microsoft.com/en-gb/users/jovanhadzic-7864/credentials/dedad3651688b1f4"
     },
     {
+        id: 5,
+        title: "Azure AI Apps and Agents Developer Associate",
+        issuer: "Microsoft",
+        image: "/certs/az-103.png",
+        link: "https://learn.microsoft.com/api/credentials/share/en-us/JovanHadzic-7864/343E54B5F085A50E?sharingId=808815044A9ADD47"
+    },
+    {
         id: 1,
         title: "Terraform Associate (003)",
         issuer: "Hashicorp",
