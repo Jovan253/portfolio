@@ -10,7 +10,7 @@ const certs = [
         id: 5,
         title: "Azure AI Apps and Agents Developer Associate",
         issuer: "Microsoft",
-        image: "/certs/az-103.png",
+        image: "/certs/ai-103.png",
         link: "https://learn.microsoft.com/api/credentials/share/en-us/JovanHadzic-7864/343E54B5F085A50E?sharingId=808815044A9ADD47"
     },
     {
