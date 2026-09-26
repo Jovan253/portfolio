@@ -9,7 +9,7 @@ export default function Home() {
         <section className="hero">
           <h1>Jovan Hadzic</h1>
           <p>
-            Problem Solver & Software Developer.
+            Software Developer and DevOps/Cloud Specialist.
           </p>
         </section>
 
