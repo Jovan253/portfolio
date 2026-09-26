@@ -1,4 +1,4 @@
-import { faTableCells, faClapperboard, faBoltLightning } from "@fortawesome/free-solid-svg-icons";
+import { faTableCells, faBoltLightning } from "@fortawesome/free-solid-svg-icons";
 import { faKubernetes } from "@fortawesome/free-brands-svg-icons";
 
 const projects = [
