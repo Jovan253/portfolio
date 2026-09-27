@@ -15,6 +15,7 @@ export default function ProjectCard({ project }) {
         >
             <h3>{project.title}</h3>
             <p>{project.description}</p>
+            {project.tech && <p className="project-tech">{project.tech.join(" · ")}</p>}
 
             {hovered && (
                 <div className="hover-icon">
