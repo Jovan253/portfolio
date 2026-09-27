@@ -17,7 +17,7 @@ const projects = [
         description: "Backing Track Generator. Upload a song, and separate it into stems.",
         tech: ["Demucs", "Modal", "Neon", "Supabase", "React", "Claude Code"],
         link: "https://music-tool-web.vercel.app/demo",
-        hoverColor: "#395ce6",  
+        hoverColor: "#3684ce",  
         hoverIcon: faMusic
     },
     {
